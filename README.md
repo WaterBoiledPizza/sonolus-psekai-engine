@@ -11,7 +11,8 @@ Project Sekai uses .sus files as charts.
   * Fun fact, it's in [Be-Music Source](https://en.wikipedia.org/wiki/Be-Music_Source) format.
 
 ### 2. Get the chart for your engine
-Now you have a .sus file, you can use sus2entities.exe to convert .sus into Sonolus compatable chart file!
+Now you have a .sus file, you can use sus2entities to convert .sus into Sonolus compatable chart file!
+* Download [sus2entities](https://github.com/LeptailurusServal/sus2entities)
 * Prepare a folder to store your output file. 
   * Make sure there is no space between characters and prevent using symbols
 * Launch sus2entities.exe
