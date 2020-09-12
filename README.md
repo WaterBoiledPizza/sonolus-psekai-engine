@@ -7,7 +7,7 @@ The following instructions will teach you how to get your PSekai levels running 
 ### 1. Get a .sus file
 Project Sekai uses .sus files as charts.
 * If you wish to play official charts, ask people who already have access to the assets as you may not be able to find them publicly on the Internet.
-* Alternatively, you can create your own chart using [Ched](https://github.com/paralleltree/Ched), a chart editor for Chunithm format games.
+* Alternatively, you can create your own chart using [Ched](https://github.com/paralleltree/Ched/releases/tag/v2.6.3.0), a chart editor for Chunithm format games.
   * Fun fact, it's in [Be-Music Source](https://en.wikipedia.org/wiki/Be-Music_Source) format.
 
 ### 2. Get the chart for your engine
