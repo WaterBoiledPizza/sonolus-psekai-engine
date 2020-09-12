@@ -28,7 +28,7 @@ Where is the destination of your file?
 
 ### 3. Create the level
 Now you have a chart, it's time to make a Sonolus level!
-* Get the files in the \engnie folder
+* Get the files in the \engine folder
 * Go to [Sonolus Intermediate Language Compiler](https://sonolus.com/developer/compiler/)
   * Put `SIL.txt` in the Script (SIL) section
   * Put `script.json` in the Level (JSON) section
