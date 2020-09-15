@@ -10,7 +10,7 @@ Project Sekai uses .sus files as charts.
 * Alternatively, you can create your own chart using [Ched](https://github.com/paralleltree/Ched/releases/tag/v2.6.3.0), a chart editor for Chunithm format games.
   * Fun fact, it's in [Be-Music Source](https://en.wikipedia.org/wiki/Be-Music_Source) format.
   
-### SHORTCUT. Convert the chart
+### (SHORTCUT) Convert the chart
 Now you have a .sus file, you can use .sus-to-Sonolus Converter to convert .sus into Sonolus compatable chart file!
 * Go to [.sus-to-Sonolus Converter](https://miku-yay.netlify.app/)
 * Copy and Paste your .sus in the Input section
