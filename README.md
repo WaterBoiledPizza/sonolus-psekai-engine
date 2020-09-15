@@ -2,13 +2,21 @@
 A recreation of Project Sekai engine in Sonolus
 
 ## Instructions
-The following instructions will teach you how to get your PSekai levels running on your server. But before everything, make sure you have your own private server to test on. [Guide on how to set up local Sonolus server (for Windows)](https://docs.google.com/document/d/11rMD_wd-oXA6Qtvpk3gn_StZMO-XTMBWA_EVI-ksfXs/edit?usp=sharing)
+The following instructions will teach you how to get your PSekai levels running on your game. But before everything, make sure you have your own private server to test on. [Guide on how to set up local Sonolus server (for Windows)](https://docs.google.com/document/d/11rMD_wd-oXA6Qtvpk3gn_StZMO-XTMBWA_EVI-ksfXs/edit?usp=sharing)
 
 ### 1. Get a .sus file
 Project Sekai uses .sus files as charts.
 * If you wish to play official charts, ask people who already have access to the assets as you may not be able to find them publicly on the Internet.
 * Alternatively, you can create your own chart using [Ched](https://github.com/paralleltree/Ched/releases/tag/v2.6.3.0), a chart editor for Chunithm format games.
   * Fun fact, it's in [Be-Music Source](https://en.wikipedia.org/wiki/Be-Music_Source) format.
+  
+### SHORTCUT. Convert the chart
+Now you have a .sus file, you can use .sus-to-Sonolus Converter to convert .sus into Sonolus compatable chart file!
+* Go to [.sus-to-Sonolus Converter](https://miku-yay.netlify.app/)
+* Copy and Paste your .sus in the Input section
+* Save the top section of Output as `level.json`
+* Save the bottom section of Output as `options.json`
+#### You can now skip to Step 4
 
 ### 2. Get the chart for your engine
 Now you have a .sus file, you can use sus2entities to convert .sus into Sonolus compatable chart file!
