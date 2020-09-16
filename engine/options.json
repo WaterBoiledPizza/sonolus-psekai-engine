@@ -21,6 +21,13 @@
         "def": 0
     },
     {
+        "name": "#JUDGMENT_STRICT",
+        "scope": "Bandori",
+        "standard": true,
+        "type": "toggle",
+        "def": 0
+    },
+    {
         "name": "#OFFSET_AUDIO",
         "type": "slider",
         "def": 0,
@@ -176,14 +183,14 @@
         "step": 0.05,
         "display": "percentage"
     },
-    {
-        "name": "#UI_COMBO_ALPHA",
-        "scope": "Bandori",
-        "type": "slider",
-        "def": 1,
-        "min": 0,
-        "max": 1,
-        "step": 0.05,
-        "display": "percentage"
-    }
+  {
+    "name": "#UI_COMBO_ALPHA",
+    "scope": "Bandori",
+    "type": "slider",
+    "def": 1,
+    "min": 0,
+    "max": 1,
+    "step": 0.05,
+    "display": "percentage"
+  }
 ]
