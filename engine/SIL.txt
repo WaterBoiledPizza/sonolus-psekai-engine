@@ -18,8 +18,8 @@ PreprocessNote:Execute(
         NoteRandom
         Execute(
             Set(EntityData *NoteTailOriginalLane NoteTailLane)
-            Set(LevelMemory *NoteMinLane Max(Floor(Divide(Lanes -2)) Subtract(NoteTailOriginalLane 2)))
-            Set(LevelMemory *NoteMaxLane Min(Floor(Divide(Lanes 2)) Add(NoteTailOriginalLane 2)))
+            Set(LevelMemory *NoteMinLane Max(Floor(Divide(Lanes -2)) Subtract(NoteTailOriginalLane 1 Floor(Divide(Lanes 2)))))
+            Set(LevelMemory *NoteMaxLane Min(Subtract(Floor(Divide(Lanes 2)) NoteXSize If(Equal(Mod(Lanes 2) 0) 1 0)) Add(NoteTailOriginalLane NoteXSize 1 Floor(Divide(Lanes 2)))))
             And(
                 Or(
                     Equal(Archetype 5)
