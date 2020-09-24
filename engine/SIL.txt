@@ -1,6 +1,6 @@
 //
 // Bandori Engine
-// For Sonolus 0.4.4
+// For Sonolus 0.4.6
 //
 // A recreation of Project Sekai engine
 // By Water Boiled Pizza
@@ -959,12 +959,13 @@ StageCoverY:Lerp(LaneY2 LaneY1 StageCover)
 			
 			IsTouchY
 			IsTouchXInTailLane
-            GreaterOr(Subtract(Time InputOffset) NoteTailTime)
-			
+			//GreaterOr(Subtract(TempTouchT TempTouchST) Subtract(NoteTailTime NoteHeadTime))
+			GreaterOr(Subtract(Time InputOffset) NoteTailTime)
             Execute(
                 Set(TemporaryMemory *TempTouchOccupied true)
                 Set(LevelMemory *Tilt Add(Tilt TempTouchX))
                 And(
+					GreaterOr(Subtract(Time InputOffset) NoteTailTime)
 
                     Execute(
                         Set(EntityMemory *InputState Terminated)
@@ -1042,13 +1043,14 @@ StageCoverY:Lerp(LaneY2 LaneY1 StageCover)
 			
 			IsTouchY
             IsTouchXInTailLane
-            IsNoteTailInGoodWindow
-
+			//GreaterOr(Subtract(TempTouchT TempTouchST) Subtract(NoteTailTime NoteHeadTime))
+			GreaterOr(Subtract(Time InputOffset Multiply(-1 PerfectWindow)) NoteTailTime)
             Execute(
                 Set(TemporaryMemory *TempTouchOccupied true)
                 Set(LevelMemory *Tilt Add(Tilt TempTouchX))
                 And(
                     TempTouchEnded
+					IsNoteTailInGoodWindow
 
                     Execute(
                         Set(EntityMemory *InputState Terminated)
@@ -1126,8 +1128,8 @@ StageCoverY:Lerp(LaneY2 LaneY1 StageCover)
 			
 			IsTouchY
             IsTouchXInTailLane
-            GreaterOr(Subtract(Time InputOffset) NoteTailTime)
-
+			//GreaterOr(Subtract(TempTouchT TempTouchST) Subtract(NoteTailTime NoteHeadTime))
+			GreaterOr(Subtract(Time InputOffset) NoteTailTime)
             Execute(
                 Set(TemporaryMemory *TempTouchOccupied true)
                 Set(LevelMemory *Tilt Add(Tilt TempTouchX))
