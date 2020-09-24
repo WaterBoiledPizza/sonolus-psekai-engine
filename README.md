@@ -54,7 +54,6 @@ Now you have the level, it's just a few steps from being able to play it!
 
 ## Work-in-process Features
 ### 1. Curvy Slides
-### 2. Multitouch Slides
-Since this engine is modified from the Bandori engine, slides works as those in Bandori instead of those in Project Sekai. I am still figuring out how to do it.
-### 3. Project Sekai Skin
+Since this engine is modified from the Bandori engine, slides currently look like those in Bandori instead of those in Project Sekai. I am still figuring out how to do it.
+### 2. Project Sekai Skin
 It will be available when the assets of PSekai is publicly released.
