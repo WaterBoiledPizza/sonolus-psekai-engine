@@ -8,6 +8,7 @@ The following instructions will teach you how to get your PSekai levels running 
 Project Sekai uses .sus files as charts.
 * If you wish to play official charts, ask people who already have access to the assets as you may not be able to find them publicly on the Internet.
 * Alternatively, you can create your own chart using [Ched](https://github.com/paralleltree/Ched/releases/tag/v2.6.3.0), a chart editor for Chunithm format games.
+ * Project Sekai uses 12 lanes and Chunithm uses 16 lanes, so make sure you don't use the 2 leftmost and rightmost lanes when you are charting in Ched, or they will look out of place.
   * Fun fact, it's in [Be-Music Source](https://en.wikipedia.org/wiki/Be-Music_Source) format.
   
 ### (SHORTCUT) Convert the chart
