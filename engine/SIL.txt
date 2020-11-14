@@ -6,7 +6,27 @@
 // By Water Boiled Pizza
 //
 
+//
+//	Note Data:		Lanes:
+//
+//	[	NOTE	]	|   |   |   |   |   |   |   |   |   |   |   |   |
+//					|-6 |-5 |-4 |-3 |-2 |-1 | 0 | 1 | 2 | 3 | 4 | 5 |
+//	|<->||<---->|
+//   Pos   Size
+//	
+//	Pos = Note's leftmost lane
+//	Size = Actual size - 1
+//
+//	Let say you want a 4-wide note at the middle (Lane -2,-1,0,1) at time = 1, Its values would be [ 1 , -2 , 3 ]
+//
 
+//
+//	Features to be added:
+//	- Curve Slides (Use DrawCurvedLR for TextureLong)
+//	- Directional Flicks (N Flicks: TempTouchVY > 0, L Flicks: TempTouchVX < 0 && TempTouchVY > 0, R Flicks: TempTouchVX > 0 && TempTouchVY > 0,)
+//	- Critical notes (Double points)
+//	- Random notes (it's still the same one from the Bandori engine, obviously it wouldn't work properly)
+//
 
 // Note Class
 
